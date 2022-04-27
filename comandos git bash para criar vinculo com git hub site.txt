@@ -1,0 +1,83 @@
+openssl sha1
+ para criptografar arquivos pelo git
+
+
+GIT HUB
+
+comandos 
+control+l - limpa
+list - lista conteudo do local
+pwd - mostra o caminho
+git clone + link ssh do github
+ssh-keygen -t ed25519 -C michelfarias.a@gmail.com - criar vinculo git hub com pc
+cat + (chave id_25519.pub) - isso para mostrar a chave do conteudo do aquivo chave
+eval $(ssh-agent -s) - isso para criar o vinculo
+
+
++ comandos git bash
+
+git init 
+git add - uma forma de atualizar o git
+git add * - commita tudo 
+git 
+
+ls -a - lista pastas ocultas
+cd - para se mover nas pastas
+cd .. - voltas um passo nas pastas
+
+
+git config user.email "email"
+git config user.name
+
+mv - para mover
+git status - 
+git commit atualiza no github
+
+git commit -m "cria pasta receitas, move arquivo para receita"
+git commit -m - m- é a flag para inserir uma mensagem e o commit para 
+atualizar os arquivos no git
+
+echo > README.md - echo para criar arquivo no diretorio
+
+git config --list : com dois - tras as configirações do git as informações
+ dela isso como email, nikename...
+
+git config --global --unset user.eamil "e-mail" : alterar email no git
+git config --global --unset user.nikename "nome aqui" : alterar o nome no git
+
+**
+git remote add origin https://github.com/MFariasAraujo/Livros-receitas.git
+
+git remote add origin + URL: para envivar para o github apos pegar o URL 
+no site apos ter criado um repositorio "repository"
+
+git remote -v: lista os arquivos que estou comitando com o git
+
+-----
+$ git remote -v
+origin  https://github.com/MFariasAraujo/Livros-receitas.git (fetch)
+origin  https://github.com/MFariasAraujo/Livros-receitas.git (push)
+origin: é o apelido do link isso é feito no comando git remote add origin ...
+-----
+
+git push origin master: envia para o github
+
+quando no git ja tem um apelido para o caminho 'link do git' no caso origin
+para enviar para o git com o comando acima lembar de git add* e 
+git commit -m "coemntario"
+
+puxar arquivo do git como comando abaixo
+git pull origin master
+ 
+
+
+**obs: so fica arquivos para commitar quando eles foram alterados se não 
+foram não haverar o que commitar.
+
+ git add . : para reconhecer as atualizações como ok
+ git commit -m "anotação"
+ git push origin main
+ 
+
+
+
